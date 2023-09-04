@@ -6,16 +6,21 @@ import uno_css from "unocss/vite";
 import transformerVariantGroup from "@unocss/transformer-variant-group";
 import extractor_svelte from "@unocss/extractor-svelte";
 import { presetUno } from "unocss";
+import extractorArbitrary from "@unocss/extractor-arbitrary-variants";
 
 let plugins = [
   svelte(),
   pages(),
-  // uno_css({
-  //   // ...
-  //   transformers: [transformerVariantGroup()],
-  //   extractors: [extractor_svelte()],
-  //   presets: [presetUno()],
-  // }),
+  uno_css({
+    // ...
+    transformers: [transformerVariantGroup()],
+    // extractors: [],
+    presets: [presetUno()],
+    extractors: [
+      // extractorArbitrary(),
+      extractor_svelte(),
+    ],
+  }),
 ];
 
 // https://vitejs.dev/config/

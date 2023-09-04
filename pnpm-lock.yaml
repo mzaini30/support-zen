@@ -8,6 +8,9 @@ dependencies:
   '@unocss/core':
     specifier: ^0.55.6
     version: 0.55.6
+  '@unocss/extractor-arbitrary-variants':
+    specifier: ^0.55.6
+    version: 0.55.6
   '@unocss/extractor-svelte':
     specifier: ^0.55.6
     version: 0.55.6

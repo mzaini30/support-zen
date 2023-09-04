@@ -5,8 +5,8 @@
   import "@unocss/reset/tailwind.css";
   // import "warna-tailwind/warna.css";
   import "./App.css";
-  // import "virtual:uno.css";
-  import "./index.css";
+  import "virtual:uno.css";
+  // import "./index.css";
   import stat_aja from "stat-aja";
 
   // stat_aja({ judul: "Judul Aplikasi", tipe: "Aplikasi Android" });

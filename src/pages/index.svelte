@@ -1,13 +1,15 @@
 <div class="w-[80%] mx-auto sm:p-4">
   <div class="">
-    <h1 class="<sm:font-bold sm:text-[50px] mt-10 mb-5">Support Zen 😊</h1>
+    <h1 class="font-bold sm:(text-[50px] font-normal) mt-10 mb-5">
+      Support Zen 😊
+    </h1>
     <p>Yuk support Zen untuk membuat karya-karya bermanfaat lainnya... 💥</p>
-    <p class="italic <sm:mt-4">
+    <p class="italic mt-4 sm:mt-0">
       Let's support Zen in creating more meaningful works... 🎶
     </p>
   </div>
   <div
-    class="[&_.kotak]:(border rounded) my-10 [&_.judul]:(bg-gray-100) [&_.kotak>*]:p-3 grid grid-cols-1 sm:grid-cols-3 gap-4"
+    class="[&_.kotak]:(border rounded) my-10 [&_.judul]:bg-gray-100 [&_.kotak>*]:p-3 grid grid-cols-1 sm:grid-cols-3 gap-4"
   >
     <div class="kotak">
       <div class="judul">🏛️ Bank Kaltim</div>
