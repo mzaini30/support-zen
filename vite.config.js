@@ -10,12 +10,12 @@ import { presetUno } from "unocss";
 let plugins = [
   svelte(),
   pages(),
-  uno_css({
-    // ...
-    transformers: [transformerVariantGroup()],
-    extractors: [extractor_svelte()],
-    presets: [presetUno()],
-  }),
+  // uno_css({
+  //   // ...
+  //   transformers: [transformerVariantGroup()],
+  //   extractors: [extractor_svelte()],
+  //   presets: [presetUno()],
+  // }),
 ];
 
 // https://vitejs.dev/config/
