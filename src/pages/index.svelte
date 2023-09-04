@@ -8,9 +8,7 @@
       Let's support Zen in creating more meaningful works... 🎶
     </p>
   </div>
-  <div
-    class="[&_.kotak]:(border rounded) my-10 [&_.judul]:bg-gray-100 [&_.kotak>*]:p-3 grid grid-cols-1 sm:grid-cols-3 gap-4"
-  >
+  <div class=" my-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
     <div class="kotak">
       <div class="judul">🏛️ Bank Kaltim</div>
       <div class="isi">5000 0246 41</div>
@@ -40,3 +38,15 @@
     </div>
   </div>
 </div>
+
+<style>
+  .kotak {
+    @apply border rounded;
+  }
+  .judul {
+    @apply bg-gray-100;
+  }
+  .kotak > * {
+    @apply p-3;
+  }
+</style>

@@ -17,6 +17,9 @@ dependencies:
   '@unocss/reset':
     specifier: ^0.50.1
     version: 0.50.1
+  '@unocss/transformer-directives':
+    specifier: ^0.55.7
+    version: 0.55.7
   '@vitejs/plugin-legacy':
     specifier: ^2.1.0
     version: 2.1.0(terser@5.15.0)(vite@4.4.9)
@@ -470,6 +473,10 @@ packages:
     resolution: {integrity: sha512-7Q2N7fyERsxyzdyo+EaNoIav1hKKOyoGTWdNZqKQImuS8aQhNUmI/UpVFQk/tMvdwS94YLGYFKEqqzNFsl+Kbw==}
     dev: false
 
+  /@unocss/core@0.55.7:
+    resolution: {integrity: sha512-c+bWe844Xjlwc1EPwHj0+n3LpntJG7ELPbEOOxNIG+CQdcEX0l1G0rkM8+nKstJ9WJmgpf1HdJQLVMF62HXvhw==}
+    dev: false
+
   /@unocss/extractor-arbitrary-variants@0.55.6:
     resolution: {integrity: sha512-5VjNKNmu54kAmt6WlVs9yed6g7PN899c4C5nCgtZBvpUbQIAzxx3xFs4kifpiuxl0uc3l39gZxcemOhZriWt9A==}
     dependencies:
@@ -593,6 +600,13 @@ packages:
     resolution: {integrity: sha512-cIUKtnU2AQ2dg5pSoX5x5JdwYwDeIf+hv3m9OHB7XuuDLo9XQY0u7MIM/hbuhHH8Z9/Vy9f8bNaXtgvx4FD5Rg==}
     dependencies:
       '@unocss/core': 0.55.6
+      css-tree: 2.3.1
+    dev: false
+
+  /@unocss/transformer-directives@0.55.7:
+    resolution: {integrity: sha512-xNmR40FssHWYJSmJv/9TQC2IdTyZPV8U3Iv/PIuke1zndMwMciclghEFiw0wSeRmhoRI7iFZck5EI/Bokyo7CQ==}
+    dependencies:
+      '@unocss/core': 0.55.7
       css-tree: 2.3.1
     dev: false
 

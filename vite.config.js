@@ -6,6 +6,7 @@ import uno_css from "unocss/vite";
 import transformerVariantGroup from "@unocss/transformer-variant-group";
 import extractor_svelte from "@unocss/extractor-svelte";
 import { presetUno } from "unocss";
+import transformerDirectives from "@unocss/transformer-directives";
 import extractorArbitrary from "@unocss/extractor-arbitrary-variants";
 
 let plugins = [
@@ -13,7 +14,7 @@ let plugins = [
   pages(),
   uno_css({
     // ...
-    transformers: [transformerVariantGroup()],
+    transformers: [transformerVariantGroup(), transformerDirectives()],
     // extractors: [],
     presets: [presetUno()],
     extractors: [

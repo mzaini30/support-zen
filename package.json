@@ -20,6 +20,7 @@
     "@unocss/extractor-arbitrary-variants": "^0.55.6",
     "@unocss/extractor-svelte": "^0.55.6",
     "@unocss/reset": "^0.50.1",
+    "@unocss/transformer-directives": "^0.55.7",
     "@vitejs/plugin-legacy": "^2.1.0",
     "autoprefixer": "^10.4.15",
     "postcss": "^8.4.29",
